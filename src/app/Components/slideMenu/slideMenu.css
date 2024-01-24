@@ -1,3 +1,11 @@
+
+body{
+    max-width: 1000px;
+    margin: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
 .slidebar {
     position: fixed;
     top: 0;
@@ -44,4 +52,16 @@
 .slidebar h3 {
     color: #285829;
     padding-left: 8px;
+}
+
+.slidebarContainer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: auto;
+}
+
+.slidebarContainer::-webkit-scrollbar {
+    width: 0;
 }
