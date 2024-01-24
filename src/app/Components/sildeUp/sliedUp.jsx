@@ -22,39 +22,40 @@ export default function SliedUp() {
         styles = 'none'
     }
 
-
     return (
         <div>
             <div className='slideupContainer'>
                 <ul className='slideup'>
                     <li>
-                        
-                         <Link href="/slide-up/bank"> <p onClick={() => { setIsOpen(true) }}>  <BiMoneyWithdraw />  </p></Link> 
-                    <div
-                className={`fixed top-0 left-0  w-full h-0  ${isOpen ? "block" : "hidden" }`}></div>
-                     <div
-                className={`fixed top-44  left-0 w-full  h-full bg-white z-50 duration-500 border-l-2 transition-margin-top ${isOpen ? "w-[300px]" : "w-0"
-                    }`}
-            >
-                
-                <button className='bg-transparent text-4xl mt-4 ml-2' onClick={() => { setIsOpen(false) }}>
-                            <IoIosCloseCircleOutline />
-                        </button>
-                        <h1 className='flex items-center cursor-pointer gap-2 text-5xl text-green-700 mb-8'><BiMoneyWithdraw className='ml-8 mr-4' /> <h1>Bank</h1> </h1>
 
-                        <ul>
-                            <li className='py-6 border-b-4 text-3xl'>first</li>
-                            <li className='py-6 border-b-4 text-3xl'>first</li>
-                            <li className='py-6 border-b-4 text-3xl'>first</li>
-                            <li className='py-6 border-b-4 text-3xl'>first</li>
-                        </ul>
-            </div>
+                        {/* <Link href="/slide-up/bank"> <p onClick={() => { setIsOpen(true) }}>  <BiMoneyWithdraw />  </p></Link>  */}
+                        <p onClick={() => { setIsOpen(true) }}>  <BiMoneyWithdraw />  </p>
+                        <div
+                            className={`fixed top-0 left-0  w-full h-0  ${isOpen ? "block" : "hidden"}`}></div>
+
+
+                        <div
+                            className={`fixed top-44 left-0  w-240  h-full bg-white duration-500  transition-margin-top ${isOpen ? "w-full" : "w-0"
+                                }`}
+                        >
+
+                            <button onClick={() => { setIsOpen(false) }}>  <IoIosCloseCircleOutline /> </button>
+
+
+
+                            <h1 className='flex items-center cursor-pointer gap-2 text-5xl text-green-700 mb-8'> <BiMoneyWithdraw className='ml-8 mr-4' /> Bank </h1>
+
+                                   <ul>
+                                       <li className='py-6 border-b-4 text-3xl'>first</li>
+                                       <li className='py-6 border-b-4 text-3xl'>first</li>
+                                       <li className='py-6 border-b-4 text-3xl'>first</li>
+                                       <li className='py-6 border-b-4 text-3xl'>first</li>
+                                   </ul>
+
+                        </div>
+
+
                     </li>
-
-
-
-
-
 
                     <li> <Link href="/slide-up/collage"> <p>  <FaBuildingColumns />  </p> </Link> </li>
                     <li> <Link href="/slide-up/hospital"><p>  <RiHospitalLine />  </p> </Link> </li>
