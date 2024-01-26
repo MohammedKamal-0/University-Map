@@ -51,7 +51,10 @@ body{
     color: #285829;
     padding-left: 8px;
 }
+
+/* 
 .slideupContainer{
+    max-width: 700px;
     width: 100%;
     display: flex;
     align-items: center;
@@ -61,4 +64,4 @@ body{
 
 .slideupContainer::-webkit-scrollbar {
     width: 0;
-}
+} */
