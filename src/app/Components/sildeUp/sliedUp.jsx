@@ -15,8 +15,8 @@ export default function SliedUp() {
 
     return (
         <div>
-            <div>
-                <ul className='flex flex-row gap-5  left-[5px] right-[5px]  mb-5 overflow-y-auto fixed bottom-0 w-full h-25'>
+            <div className='max-w[1000px] mx-auto p-16'>
+                <ul className='flex flex-row gap-5  left-[5px] right-center  mb-5 overflow-y-auto fixed bottom-0 w-full h-25'>
 
 
                    <li className='bg-green-700 rounded-[10px] text-5xl ml-2  text-[#ffffff] p-2 mt-8 '>

@@ -27,7 +27,7 @@ export default function SlideMenu() {
     return (
 
         <div >
-            <button className='bg-transparent text-5xl mt-4 ml-2 text-white' onClick={() => { setIsOpen(true) }}>
+            <button className='bg-transparent text-5xl mt-4 ml-2 text-red' onClick={() => { setIsOpen(true) }}>
                 <IoMenu />
             </button>
 

@@ -8,6 +8,25 @@ import "@/app/Components/sildeUp/sliedUp.css"
 export default function Collage() {
 
 
+
+
+// let displaydata
+
+// displaydata = data.map(function(todo){
+//   return(
+//     <p key={todo.id}>{todo.name}</p>
+//   )
+// })
+// useEffect(()=>{
+
+// },[])
+
+
+
+
+
+
+
   const [isOpen, setIsOpen] = useState(false);
   var styles
   if (isOpen) {
@@ -40,4 +59,17 @@ export default function Collage() {
 
     </div>
   )
-}
+
+
+
+  }
+
+
+
+
+
+// export async function getServerSideProps(){
+// const res = await fetch('https://gbfs.citibikenyc.com/gbfs/en/station_information.json')
+// const data = await res.json()
+// return {props:{data}}
+// }

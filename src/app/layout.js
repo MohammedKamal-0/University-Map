@@ -1,7 +1,9 @@
+
 import { Inter } from 'next/font/google'
 import './globals.css'
 import SlideMenu from './Components/slideMenu/slideMenu'
 import SliedUp from './Components/sildeUp/sliedUp'
+import Map from './Components/map/Map'
 
 
 const inter = Inter({ subsets: ['latin'] })
@@ -15,9 +17,10 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-        
         <SlideMenu  />
         <SliedUp />
+        <Map/>
+
          {children}
       </body>
     </html>
