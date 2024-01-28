@@ -37,7 +37,7 @@ const onUnmount = React.useCallback(function useCallback(map){
 
 return isLoaded ?(
   
-  <GoogleMap
+  <div className='z-100 relative'><GoogleMap  
   mapContainerStyle={containerStyle}
   center={center}
   zoom={16}
@@ -45,7 +45,7 @@ return isLoaded ?(
   onUnmount={onUnmount}
   >
     <></>
-  </GoogleMap>
+  </GoogleMap></div>
 ):(
   <></>
 );

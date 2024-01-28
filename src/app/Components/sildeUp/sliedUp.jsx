@@ -15,7 +15,7 @@ export default function SliedUp() {
 
     return (
         <div>
-            <div className='max-w[1000px] mx-auto p-16'>
+            <div className='max-w[1000px] mx-auto p-16 z-200'>
                 <ul className='flex flex-row gap-5  left-[5px] right-center  mb-5 overflow-y-auto fixed bottom-0 w-full h-25'>
 
 
