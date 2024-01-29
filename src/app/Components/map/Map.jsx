@@ -8,7 +8,7 @@ export default function Map() {
 
 const containerStyle = {
     width:"100%",
-    height:"100vh"
+    height:"80vh"
 };
 
 
@@ -37,7 +37,7 @@ const onUnmount = React.useCallback(function useCallback(map){
 
 return isLoaded ?(
   
-  <div className='z-100 relative'><GoogleMap  
+  <div className='relative'><GoogleMap  
   mapContainerStyle={containerStyle}
   center={center}
   zoom={16}
@@ -45,7 +45,7 @@ return isLoaded ?(
   onUnmount={onUnmount}
   >
     <></>
-  </GoogleMap></div>
+  </GoogleMap> </div>
 ):(
   <></>
 );
