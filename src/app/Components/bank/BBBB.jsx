@@ -92,7 +92,7 @@ export default function BBBB() {
                                     <div className='flex m-6 gap-6'>
 
                                         {/* for image */}
-                                        <Image
+                                        {/* <Image
                                             className='width-20 height-20 border-4 gap-4'
                                             // src='https://picsum.photos/600/400'
                                             width={350}
@@ -119,7 +119,7 @@ export default function BBBB() {
                                             width={350}
                                             height={350}
                                             alt="Picture of the author"
-                                        />
+                                        /> */}
 
 
 

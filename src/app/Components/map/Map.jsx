@@ -8,7 +8,7 @@ export default function Map() {
 
 const containerStyle = {
     width:"100%",
-    height:"100vh"
+    height:"80vh"
 };
 
 

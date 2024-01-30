@@ -1,9 +1,9 @@
 "use client";
 import React from 'react'
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { IoIosCloseCircleOutline } from "react-icons/io";
 import { MdOutlineLocalParking } from "react-icons/md";
-import "@/app/Components/sildeUp/sliedUp.css"
+// import "@/app/Components/sildeUp/sliedUp.css"
 
 export default function Park() {
 
